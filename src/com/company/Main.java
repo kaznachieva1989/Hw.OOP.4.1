@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         new Runner("Runner").start();
 

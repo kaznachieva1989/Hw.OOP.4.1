@@ -17,7 +17,7 @@ public class Runner extends Thread {
             } else {
                 System.out.printf("%s бежит к Runner %d \n", Thread.currentThread().getName() + " " + i, j);
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     System.out.println("Thread has been interrupted");
                 }
@@ -30,7 +30,7 @@ public class Runner extends Thread {
             } else {
                 System.out.printf("%s бежит к Runner %d \n", Thread.currentThread().getName() + " " + i, j);
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     System.out.println("Thread has been interrupted");
                 }
